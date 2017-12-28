@@ -12,7 +12,16 @@
 */
 
 Route::get('/', 'MainController@home');
-Route::get('/adopta', 'MainController@adopta');
+Route::get('adopta', 'MainController@adopta');
+Route::get('conocenos', 'MainController@weare');
+Route::get('donation', 'MainController@donation');
+Route::get('question', 'MainController@question');
+/*
+Route::get('fichas/{id}', 'FichasController@create')->name('fichas');
+*/	
+
+Route::resource('albergues','AlberguesController', ['only' => ['create','store']]);
+Route::get('fichas/{id}', ['as' => 'fichas', 'uses' => 'FichasController@create']);
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
@@ -21,6 +30,9 @@ Route::group(['prefix' => 'admin'], function () {
 Auth::routes();
 
 Route::resource('pets','PetsController');
+
+Route::resource('fichas','FichasController', ['only' => ['create','store']]);
+
 
 Route::get('/home', 'HomeController@index')->name('home');
 

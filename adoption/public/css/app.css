@@ -8470,3 +8470,130 @@ button.close {
   bottom: 15px;
 }
 
+.modal-header h2 {
+  text-align: center;
+  font-size: 55px;
+  color: #394f88;
+  font-weight: 700;
+}
+
+.actions {
+  padding: 30px 0px;
+  text-align: center;
+}
+
+.actions h3 {
+  font-size: 25px;
+  color: #394f88;
+  font-weight: 400;
+}
+
+.actions .buttons {
+  margin-top: 20px;
+}
+
+.actions a {
+  display: inline-block;
+  padding: 12px 40px;
+  border: 1px solid #27beb9;
+  text-transform: uppercase;
+  background-color: #27beb9;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.actions a:hover {
+  text-decoration: none;
+}
+
+.actions a.whitebg {
+  background-color: #fff;
+  color: #27beb9;
+}
+
+.bottom {
+  background-image: url("/adoption/public/img/bloq.jpg");
+  padding: 0px 40px 30px 40px;
+  -webkit-border-bottom-right-radius: 7px;
+  -webkit-border-bottom-left-radius: 7px;
+  -moz-border-radius-bottomright: 7px;
+  -moz-border-radius-bottomleft: 7px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+
+.blocksm {
+  overflow: hidden;
+  padding: 40px 0px 20px 0px;
+  max-width: 96%;
+  margin: 0px auto;
+}
+
+.blockm {
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+.blockm p {
+  margin: 0px auto;
+  color: #394f88;
+  max-width: 102px;
+  margin-top: 5px;
+  line-height: 1.2em;
+  font-size: 15px;
+}
+
+.blockm p span {
+  font-weight: 600;
+}
+
+.blockm .sprite {
+  display: inline-block;
+  width: 86px;
+  height: 86px;
+  background-position: 0px -1434px;
+}
+
+.blockm2 .sprite {
+  background-position: -87px -1434px;
+}
+
+.blockm3 .sprite {
+  background-position: -174px -1434px;
+}
+
+.blockm4 .sprite {
+  background-position: -348px -1434px;
+}
+
+.blockm5 .sprite {
+  background-position: -261px -1434px;
+}
+
+@media (max-width: 1366px) {
+  .blockm .sprite {
+    background-image: url("/adoption/public/img/sprite.png");
+  }
+}
+
+@media (max-width: 500px) {
+  .blockm .sprite {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+.main1 {
+  text-align: center;
+}
+
+.main1 h1 {
+  text-align: center;
+  font-size: 55px;
+  color: #394f88;
+  font-weight: 700;
+}
+

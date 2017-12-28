@@ -1,6 +1,6 @@
 <div class="card1 pet1 text-left">
 	@if(Auth::check() && $pet->user_id == Auth::user()->id)
-		<div class="absolute actions">
+		<div class="absolute">
 			<a href="{{url('/pets/'.$pet->id.'/edit')}}">
 				Editar
 			</a>

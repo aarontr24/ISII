@@ -171,6 +171,9 @@ return [
         /*
          * Application Service Providers...
          */
+
+        Alaouy\Youtube\YoutubeServiceProvider::class,
+
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
@@ -229,6 +232,7 @@ return [
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
 
+        'Youtube' => Alaouy\Youtube\Facades\Youtube::class,
     ],
 
 ];

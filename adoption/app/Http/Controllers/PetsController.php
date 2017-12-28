@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Pet;
 use App\PetImage;
+use App\Ficha;
 use Illuminate\Support\Facades\Auth;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
